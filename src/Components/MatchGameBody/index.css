@@ -1,0 +1,36 @@
+.game-body {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.big-image-container {
+  display: flex;
+  justify-content: center;
+}
+.big-img {
+  width: 70%;
+}
+.tab-item-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.thumbline-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  .big-img {
+    width: 90%;
+  }
+  .thumbline-container {
+    flex-wrap: wrap;
+  }
+}

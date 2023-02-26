@@ -1,0 +1,13 @@
+.tab-btn {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px;
+}
+.selectedTabStyle {
+  border-bottom: 3px solid #fec653;
+  color: #fec653;
+}

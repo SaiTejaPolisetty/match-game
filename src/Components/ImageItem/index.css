@@ -1,0 +1,12 @@
+.image-item {
+  width: 20%;
+  padding: 2px;
+}
+.thumbline-img {
+  width: 100%;
+}
+.thumbline-btn {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+}
